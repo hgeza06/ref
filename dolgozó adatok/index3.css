@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma, verdana, arial;
+    font-size: 12px;
+}
+
+body{
+    margin: 20px;
+    color: #51717c;
+    background-color: #f4f4f4;
+    
+}
+
+#container{
+    width: 400px;
+    margin:0 auto ;
+    
+} 
+
+#reg fieldset{
+    padding: 20px;
+    width: 360px;
+    margin: 0 0 30px 0;
+    border: 2px solid #AFD3E0; 
+    background-color: #E8F2F6;
+}
+
+#reg fieldset legend{
+    padding:  5px 10px;
+    width: 100px;
+    background-color: #91c82E;
+    color: #fff;
+    border: 1px solid #78A626;
+}
+
+#reg fieldset ol{
+    list-style: none;
+}
+
+#reg fieldset ol li{
+    padding: 5px 0;
+    clear: both;
+}
+
+#reg fieldset label{
+    width:150px;
+    float: left;
+}
+
+#reg input[type="email"],
+#reg input[type="text"],
+#reg input[type="password"] 
+{
+    width: 190px;
+    border: 2px solid #AFD3E0;
+    padding: 4px; 
+    font-family: coureier;
+    color: #6f96a5;
+}
+
+#reg input[type="submit"], a{
+    background-color: #91c82E;
+    color: #fff;
+    border: 1px solid #78A626;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+a {
+    background-color: #91c82E;
+    color: #fff;
+    border: 1px solid #78A626;
+    padding: 5px 10px;
+    font-size: 14px;
+   
+}
