@@ -18,4 +18,35 @@ if (!($conn)) {
 } else {
     echo "Siker";
 }*/
+
+
+Class Database {
+   private $hostName;
+   private $userName;
+   private $password;
+   private databaseName;
+
+   public $conn;
+  
+
+
+  function getConnection(){
+    $this->conn;
+
+     try{
+       $db = mysqli_connect($hostName, $userName, $password, $databaseName);
+       if($db){
+          echo 'Sikeres csatlakozás az adatbázishoz';
+      }else{
+          throw new Exception('Sikertelen kapcsolat az adatbázishoz');
+      }
+     }catch(Exception $e){
+        echo $e->getMessage();
+     }
+
+      return $this->conn;
+
+}
+
+}
 ?>
