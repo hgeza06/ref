@@ -24,7 +24,7 @@ Class Database {
    private $hostName;
    private $userName;
    private $password;
-   private databaseName;
+   private $databaseName;
 
    public $conn;
   
@@ -49,4 +49,8 @@ Class Database {
 }
 
 }
+
+
+$database = new Database();
+
 ?>
